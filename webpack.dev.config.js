@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './src/jq.js',
     output: {
         path: path.join(__dirname, 'dist'),
         filename:'./release/bundle.js'  // release 会自动创建
